@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="7" fill="#EE1D52"/>
+  <!-- Left teal accent bar -->
+  <rect x="3" y="8" width="4" height="16" rx="2" fill="#69C9D0"/>
+  <!-- Letter T -->
+  <rect x="9" y="8" width="14" height="3.5" rx="1.5" fill="#ffffff"/>
+  <rect x="14" y="11.5" width="4" height="12.5" rx="1.5" fill="#ffffff"/>
+</svg>

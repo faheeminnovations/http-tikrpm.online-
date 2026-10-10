@@ -1,0 +1,14 @@
+# ── Admin folder .htaccess ───────────────────────────────────
+# Allows direct access to admin PHP files.
+# Blocks auth.php and partials/ from direct browser access.
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /tikrpm/admin/
+
+  # Block direct access to auth.php and partials
+  RewriteRule ^auth\.php$       - [F,L]
+  RewriteRule ^partials/        - [F,L]
+</IfModule>
